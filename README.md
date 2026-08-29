@@ -1,16 +1,23 @@
-🗡️ Codex Ashes
+# 🗡️ Codex Ashes
 
-"Toda batalha tem um som."
+> *"Toda batalha tem um som."*
 
-Codex Ashes é um catálogo digital dedicado às trilhas sonoras de jogos souls-like — um arquivo para preservar as melodias que ecoaram por terras amaldiçoadas e acompanharam guerreiros em suas jornadas. O projeto une uma identidade visual sombria e atmosférica a uma aplicação full-stack simples de cadastro e consulta de músicas.
+**Codex Ashes** é um catálogo digital dedicado às trilhas sonoras de jogos *souls-like* — um arquivo para preservar as melodias que ecoaram por terras amaldiçoadas e acompanharam guerreiros em suas jornadas. O projeto une uma identidade visual sombria e atmosférica a uma aplicação full-stack simples de cadastro e consulta de músicas.
 
-✒️ Sobre o projeto
+---
 
-Inspirado na estética de jogos como Dark Souls, Elden Ring e Bloodborne, o Codex Ashes permite:
+## ✒️ Sobre o projeto
 
-📜 Explorar memórias musicais — listar as trilhas sonoras já registradas no arquivo.
-🩸 Registrar novas memórias — cadastrar uma música com informações como compositor, jogo, local e duração.
+Inspirado na estética de jogos como *Dark Souls*, *Elden Ring* e *Bloodborne*, o Codex Ashes permite:
 
-👤 Autor
+- 📜 **Explorar memórias musicais** — listar as trilhas sonoras já registradas no arquivo.
+- 🩸 **Registrar novas memórias** — cadastrar uma música com informações como compositor, jogo, local e duração.
 
-Desenvolvido por Matheus.
+A interface usa uma linguagem textual própria do universo souls-like (ex: "Despertar Memórias", "Codex", "Recordação Nº 001") para reforçar a imersão temática.
+
+---
+
+
+## 👤 Autor
+
+Desenvolvido por **Matheus**.
