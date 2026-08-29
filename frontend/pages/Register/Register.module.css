@@ -1,0 +1,135 @@
+.register {
+    min-height: calc(100vh - 100px);
+
+    display: grid;
+
+    grid-template-columns: 0.8fr 1.2fr;
+
+    gap: 80px;
+
+    align-items: center;
+
+    padding: 80px 10%;
+}
+
+/* LEFT */
+
+.introduction {
+    padding: 20px 0;
+}
+
+.subtitle {
+    margin-bottom: 25px;
+
+    color: #c59b45;
+
+    font-size: 11px;
+
+    letter-spacing: 5px;
+}
+
+.introduction h1 {
+    margin: 0;
+
+    color: #e8e1d5;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: clamp(50px, 6vw, 80px);
+
+    font-weight: normal;
+
+    line-height: 0.95;
+}
+
+.description {
+    max-width: 400px;
+
+    margin-top: 30px;
+
+    color: #8e8982;
+
+    line-height: 1.8;
+
+    font-size: 14px;
+}
+
+.symbol {
+    margin-top: 50px;
+
+    color: rgba(197, 155, 69, 0.4);
+
+    font-size: 40px;
+}
+
+/* FORM */
+
+.formSection {
+    padding: 40px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #1a1917,
+            #111
+        );
+
+    border: 1px solid rgba(197, 155, 69, 0.25);
+
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.formHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 35px;
+
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid rgba(197, 155, 69, 0.2);
+}
+
+.formHeader p {
+    margin: 0;
+
+    color: #c59b45;
+
+    font-size: 10px;
+
+    letter-spacing: 3px;
+}
+
+.formHeader span {
+    color: #5f5a53;
+
+    font-size: 9px;
+
+    letter-spacing: 2px;
+}
+
+@media (max-width: 850px) {
+
+    .register {
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+
+        padding: 60px 7%;
+    }
+
+    .introduction {
+        text-align: center;
+    }
+
+    .description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .symbol {
+        margin-top: 30px;
+    }
+}
