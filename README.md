@@ -13,8 +13,6 @@ Inspirado na estética de jogos como *Dark Souls*, *Elden Ring* e *Bloodborne*, 
 - 📜 **Explorar memórias musicais** — listar as trilhas sonoras já registradas no arquivo.
 - 🩸 **Registrar novas memórias** — cadastrar uma música com informações como compositor, jogo, local e duração.
 
-A interface usa uma linguagem textual própria do universo souls-like (ex: "Despertar Memórias", "Codex", "Recordação Nº 001") para reforçar a imersão temática.
-
 ---
 
 
