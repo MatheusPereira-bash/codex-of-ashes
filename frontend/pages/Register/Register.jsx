@@ -6,7 +6,7 @@ function Register(){
     return (
         <main className={styles.register}>
             <section className={styles.introduction}>
-                <p className={styles.subtitle}>
+                <p className="subtitle">
                     NOVA MEMÓRIA
                 </p>
 
@@ -15,7 +15,7 @@ function Register(){
                     A melodia.
                 </h1>
 
-                <p className={styles.description}>
+                <p className={`description ${styles.description}`}>
                     Preserve as músicas que ecoaram pelas terras dos caídos.
                 </p>
             </section>

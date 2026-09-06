@@ -34,7 +34,7 @@ function Home() {
         <main className={styles.home}>
             <section className={styles.hero}>
                 <div className={styles.heroContent}>
-                    <p className={styles.subtitle}>
+                    <p className="subtitle">
                         ARQUIVO DOS CAIDOS
                     </p>
 
@@ -43,7 +43,7 @@ function Home() {
                         tem um som
                     </h1>
 
-                    <p className={styles.description}>
+                    <p className={`description ${styles.description}`}>
                         Explore as melodias que acompanharam os guerreiros por terras amaldiçoadas.
                     </p>
 

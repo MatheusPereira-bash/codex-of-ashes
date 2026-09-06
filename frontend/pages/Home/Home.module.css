@@ -32,15 +32,6 @@
     max-width: 750px;
 }
 
-.subtitle {
-    margin-bottom: 25px;
-
-    color: #c59b45;
-
-    font-size: 11px;
-    letter-spacing: 5px;
-}
-
 .hero h1 {
     margin: 0;
 
@@ -56,14 +47,6 @@
 
 .description {
     max-width: 500px;
-
-    margin-top: 30px;
-
-    color: #9d968c;
-
-    font-size: 15px;
-
-    line-height: 1.8;
 }
 
 .exploreButton {

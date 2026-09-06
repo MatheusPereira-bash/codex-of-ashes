@@ -3,8 +3,10 @@
     min-height: 100px;
 
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    gap: 15px;
 
     padding: 20px 8%;
 
@@ -43,18 +45,50 @@
     gap: 30px;
 }
 
-.nav a {
+.nav button {
+    padding: 10px 15px;
+
+    background: transparent;
+    border: none;
+
     color: #cfc7ba;
 
-    text-decoration: none;
     text-transform: uppercase;
 
     font-size: 12px;
     letter-spacing: 2px;
 
+    cursor: pointer;
+
     transition: 0.3s;
 }
 
-.nav a:hover {
+.nav button:hover {
     color: #e3c16f;
+}
+
+.nav button.active {
+    color: #e3c16f;
+
+    border-bottom: 1px solid #c59b45;
+}
+
+@media (max-width: 900px) {
+    .header {
+        flex-direction: column;
+
+        gap: 20px;
+
+        padding: 25px 5%;
+    }
+
+    .brand {
+        text-align: center;
+    }
+
+    .nav {
+        width: 100%;
+
+        justify-content: center;
+    }
 }

@@ -12,20 +12,8 @@
     padding: 80px 10%;
 }
 
-/* LEFT */
-
 .introduction {
     padding: 20px 0;
-}
-
-.subtitle {
-    margin-bottom: 25px;
-
-    color: #c59b45;
-
-    font-size: 11px;
-
-    letter-spacing: 5px;
 }
 
 .introduction h1 {
@@ -45,11 +33,7 @@
 .description {
     max-width: 400px;
 
-    margin-top: 30px;
-
     color: #8e8982;
-
-    line-height: 1.8;
 
     font-size: 14px;
 }

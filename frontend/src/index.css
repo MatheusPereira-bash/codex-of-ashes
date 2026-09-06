@@ -29,3 +29,23 @@ select {
 button {
     cursor: pointer;
 }
+
+.subtitle {
+    margin-bottom: 25px;
+
+    color: #c59b45;
+
+    font-size: 11px;
+
+    letter-spacing: 5px;
+}
+
+.description {
+    margin-top: 30px;
+
+    color: #9d968c;
+
+    line-height: 1.8;
+
+    font-size: 15px;
+}
